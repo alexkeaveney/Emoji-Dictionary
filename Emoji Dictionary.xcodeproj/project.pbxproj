@@ -14,7 +14,6 @@
 		84A811621E5A16A400A014E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A811601E5A16A400A014E2 /* LaunchScreen.storyboard */; };
 		84A8116D1E5A16A400A014E2 /* Emoji_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8116C1E5A16A400A014E2 /* Emoji_DictionaryTests.swift */; };
 		84A811781E5A16A400A014E2 /* Emoji_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A811771E5A16A400A014E2 /* Emoji_DictionaryUITests.swift */; };
-		84A811881E5A253600A014E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A811871E5A253600A014E2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		84A811731E5A16A400A014E2 /* Emoji DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A811771E5A16A400A014E2 /* Emoji_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_DictionaryUITests.swift; sourceTree = "<group>"; };
 		84A811791E5A16A400A014E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84A811871E5A253600A014E2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +77,6 @@
 		84A8114B1E5A16A400A014E2 = {
 			isa = PBXGroup;
 			children = (
-				84A811871E5A253600A014E2 /* ViewController.swift */,
 				84A811561E5A16A400A014E2 /* Emoji Dictionary */,
 				84A8116B1E5A16A400A014E2 /* Emoji DictionaryTests */,
 				84A811761E5A16A400A014E2 /* Emoji DictionaryUITests */,
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A811881E5A253600A014E2 /* ViewController.swift in Sources */,
 				84A8115A1E5A16A400A014E2 /* ViewController.swift in Sources */,
 				84A811581E5A16A400A014E2 /* AppDelegate.swift in Sources */,
 			);
