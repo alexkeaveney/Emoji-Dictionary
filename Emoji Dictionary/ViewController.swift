@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var dacooltableview: UITableView!
-    var emojis = ["😀", "😄", "😁", "😆", "🤡", "😡", "😩", "😘", "😎", "👽"]
+    var emojis = ["😀", "😄","😆", "🤡", "😡", "😩", "😘", "😎", "👽"]
     
     
     override func viewDidLoad() {
@@ -31,12 +31,25 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return emojis.count
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "viewMore", sender: emojis[indexPath.item])
+    }
 
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = emojis[indexPath.item]
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "viewMore") {
+            let destinationVC = segue.destination as! DescriptionViewController
+            destinationVC.emoji = sender as! String
+            
+        }
     }
 
 
