@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var dacooltableview: UITableView!
-    var emojis = ["😀", "😄","😆", "🤡", "😡", "😩", "😘", "😎", "👽"]
+    var emojis = ["😀", "😄","😆", "😡", "😩", "😘", "😎", "👽"]
     
     
     override func viewDidLoad() {

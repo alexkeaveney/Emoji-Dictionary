@@ -30,10 +30,6 @@ class DescriptionViewController: UIViewController {
         case "😆" :
             descLabel.text = "This is a constipated emoji"
             break
-            
-        case "🤡":
-            descLabel.text = "This is a clown emoji"
-            break
 
         case "😡":
             descLabel.text = "This is an angry emoji"
