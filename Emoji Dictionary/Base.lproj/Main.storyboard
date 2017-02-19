@@ -43,5 +43,47 @@
             </objects>
             <point key="canvasLocation" x="-23.199999999999999" y="134.48275862068968"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="PHP-0u-Noy">
+            <objects>
+                <viewController id="Pag-5i-0w6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pGO-Wq-yle"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rhk-0w-djs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uc6-Vl-zxh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKU-44-AQg">
+                                <rect key="frame" x="79" y="88" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This emoji is angry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7s-6w-eJl">
+                                <rect key="frame" x="79" y="391" width="216" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="g5s-OR-sxE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Q7s-6w-eJl" firstAttribute="centerX" secondItem="Uc6-Vl-zxh" secondAttribute="centerX" id="Hdc-A5-vQT"/>
+                            <constraint firstItem="Q7s-6w-eJl" firstAttribute="top" secondItem="UKU-44-AQg" secondAttribute="bottom" constant="64" id="RfG-qF-n3I"/>
+                            <constraint firstItem="UKU-44-AQg" firstAttribute="top" secondItem="pGO-Wq-yle" secondAttribute="bottom" constant="68" id="ZrF-em-AD0"/>
+                            <constraint firstItem="Q7s-6w-eJl" firstAttribute="leading" secondItem="UKU-44-AQg" secondAttribute="leading" id="qme-on-lKN"/>
+                            <constraint firstItem="UKU-44-AQg" firstAttribute="centerX" secondItem="Uc6-Vl-zxh" secondAttribute="centerX" id="ued-um-7iH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nOp-C6-MNf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768.79999999999995" y="134.48275862068968"/>
+        </scene>
     </scenes>
 </document>
